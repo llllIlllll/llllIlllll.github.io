@@ -71,79 +71,6 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-3.8_组会" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/03/08/3.8_%E7%BB%84%E4%BC%9A/" class="article-date">
-  <time class="dt-published" datetime="2023-03-08T09:41:35.320Z" itemprop="datePublished">2023-03-08</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <ul>
-<li><p>$$<br>min_{x \in \mathbb{R}} max_{y \in \mathbb{R}} L(x,y)\<br>鞍点问题 \quad 邻近点算法<br>$$</p>
-</li>
-<li></li>
-<li><p>$$<br>min_{x \in \mathbb{R}} max_{y \in \mathbb{R}} F(x)+K(x,y)-G_*(y) \quad K \in C^1<br>\K是双线性 \quad prime-dual \quad邻近点分裂算法 \quad PDPS<br>\<br>K是一般情形 \quad Bregman散度 \quad PDBS \quad 强收敛 \quad弱收敛<br>\<br>K &#x3D; &lt;Ax,y&gt; \quad min_{x \in X }F(x)+G(Ax) \quad G&#x3D; (G_x)^*<br>\Gradient Non-Convexity \quad GNC<br>$$</p>
-</li>
-<li><p>$$<br>min_{x,y} \psi(x,y) &#x3D; f(x)+g(y)+H(x,y)<br>\<br>Gauss-Seidel 迭代<br>\Proximal \quad Alternating \quad Linearized \quad Minimization \quad PALM<br>\iPALM(inertial \quad term)<br>\ min_{B,C} \frac{1}{2} ||A-BC||_{F}^{2}\quad s.t.B\geq0,C\geq0<br>$$</p>
-</li>
-<li><p>胰腺肿瘤多模态影像特征</p>
-<p>参考文献 陈星荣 </p>
-<ul>
-<li><p>PDAC  增强：动脉-&gt;胰期-&gt;静脉期-&gt;延迟期 乏血供 慢进慢出</p>
-<p>平扫期 等密度 增强期 低密度或等密度</p>
-<p>CT上间接征象 胰、胆管中断</p>
-</li>
-</ul>
-</li>
-<li><p>可解释性 半监督 弱监督</p>
-</li>
-</ul>
-<p>IEEE TIP 2021</p>
-<p>local geodesic metric </p>
-<ul>
-<li><p>edge-based</p>
-<ul>
-<li>各向异性 不对称的</li>
-</ul>
-</li>
-<li><p>region-based *</p>
-</li>
-<li><p>curvature</p>
-</li>
-</ul>
-<p>dual-cut scheme(fast marching变种)</p>
-<p>$$<br>Riemannian : Metric\<br>TM \quad tangent : bundle, ; g \quad riemannian ;metric \<br>conformal : metric :(M,g) \quad (e^{\phi}g)_p(u,v) &#x3D; e^{\phi(p)}g_p(u,v)\<br>GAC : model \quad conformal : with : canonical : metric \quad<br>\Phi(x)&#x3D;\frac{1}{1+|\nabla I|^2}<br>$$</p>
-<p>$$<br>local ; coordinate ; representation ; of ; riemannian ;metric\<br>X(p)&#x3D; \sum X(p) \frac{\partial}{\partial x_i}&#x3D;\sum dx_i(X)\frac{\partial}{\partial x_i}\<br>g(X,Y)&#x3D; &lt;\sum dx_i(X)\frac{\partial}{\partial x_i},\sum dx_j(Y)\frac{\partial}{\partial x_j}&gt;\<br>&#x3D; \sum&lt;\frac{\partial}{\partial x_i},\frac{\partial}{\partial x_j}&gt; dx_i dx_j<br>$$</p>
-<p>$$<br>arc;length \quad L(\gamma)&#x3D; \int_a^b \sqrt{g(\gamma’(t),\gamma’(t))}dt<br>$$</p>
-<p>$$<br>Finsler ; Metric<br>$$</p>
-<p>$$<br>\mathcal{F}:C^\infin : on ; TM-{0} \<br>\mathcal{F} (x,\lambda y )&#x3D;\lambda \mathcal{F}(x,y)\<br>Hessian ; matrix ; [\frac{1}{2}F^2]<em>{y_iy_j} ; postive-definite<br>\ riemiannian ; metric \quad F(x,y)&#x3D;\sqrt{g_x(y,y)}&#x3D;\sqrt{y^TGy}\<br>非对称的finsler ; metric:Rander ; Metric\<br>\mathcal{F}(x,y)&#x3D;\alpha(x,y)+\beta(x,y)\<br>where ; \alpha(x,y)&#x3D; \sqrt{a</em>{ij}y^iy^j} \quad \beta &#x3D; b_i(x)y^i\<br>L_\mathcal{F}(\gamma) &#x3D; \int_a^b \mathcal{F}(\gamma(u),\gamma’(u))du\<br>\gamma’(u)&#x3D; -argmax_{||v||&#x3D;1} \frac{&lt;\nabla u_s(\gamma(u)),v&gt;}{\mathcal(F)(\gamma(u),v)}<br>$$</p>
-<p>$$<br>次黎曼度量<br>$$</p>
-<p>$$<br>Region-based ; ACM \</p>
-<p>\Psi(c)&#x3D; \int_R ||I(x)-c_1||^2dx + \int_{\Omega-R} ||I(x)-c_2||^2dx<br>\ c ; is ; contour ; curve<br>$$</p>
-<p>$$<br>Edge-based \<br>appearance ;feature<br>$$</p>
-<p>$$</p>
-<p>$$</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2023/03/08/3.8_%E7%BB%84%E4%BC%9A/" data-id="clezijjmf00004st583mw3jwq" data-title="" class="article-share-link">Share</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
     <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2022/10/23/hello-world/" class="article-date">
@@ -168,22 +95,18 @@
       
         <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
 <h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/10/23/hello-world/" data-id="clezijjmj00014st52c0l4rbz" data-title="Hello World" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/10/23/hello-world/" data-id="clfcbpzit000030t5gv0mfadw" data-title="Hello World" class="article-share-link">Share</a>
       
       
       
@@ -213,7 +136,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/03/">March 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/10/">October 2022</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/10/">October 2022</a></li></ul>
     </div>
   </div>
 
@@ -224,10 +147,6 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
-        
-          <li>
-            <a href="/2023/03/08/3.8_%E7%BB%84%E4%BC%9A/">(no title)</a>
-          </li>
         
           <li>
             <a href="/2022/10/23/hello-world/">Hello World</a>
@@ -280,5 +199,21 @@
 
 
   </div>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="//cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
 </body>
 </html>
